@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ADN Visual de Marca · ESG Experience™</title>
+  <meta name="description" content="Descubre qué dirección visual necesita tu marca para verse coherente, reconocible y alineada a tu identidad." />
+  <meta name="theme-color" content="#C8B49A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --stone:#C8B49A; --cream:#F8F4EC; --cream2:#EFE6D8; --body:#3D2010;
+      --brown:#A0622A; --brown2:#7B4F24; --leather:#5C2E0E; --black:#0A0A0A;
+      --gold1:#8B6914; --gold2:#C9A646; --gold3:#F5D78E;
+      --shadow:0 24px 70px rgba(61,32,16,.24); --radius:28px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--body);font-family:'DM Sans',system-ui,sans-serif;background:var(--stone);min-height:100vh;overflow-x:hidden}
+    body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(120deg,rgba(248,244,236,.42),rgba(200,180,154,.18)),url('assets/esg-stone-bg.webp');background-size:cover;background-position:center;z-index:-3;filter:saturate(.94) contrast(1.02)}
+    body::after{content:"";position:fixed;inset:0;background:radial-gradient(circle at 15% 20%,rgba(245,215,142,.18),transparent 35%),radial-gradient(circle at 82% 14%,rgba(92,46,14,.10),transparent 30%),linear-gradient(180deg,rgba(248,244,236,.05),rgba(61,32,16,.12));z-index:-2;pointer-events:none}
+    .grain{position:fixed;inset:0;opacity:.15;background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:72px 72px;z-index:-1;mask-image:linear-gradient(to bottom,transparent,black 12%,black 90%,transparent)}
+    .wrap{width:min(1120px,calc(100% - 34px));margin:0 auto}.topbar{position:sticky;top:14px;z-index:20;margin:14px auto 0;width:min(1120px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border:1px solid rgba(123,79,36,.18);border-radius:999px;background:rgba(248,244,236,.78);backdrop-filter:blur(18px);box-shadow:0 18px 46px rgba(61,32,16,.12)}
+    .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--body)}.logo img{height:34px;width:auto;display:block}.logo span{font-family:'Cormorant Garamond',serif;font-size:21px;letter-spacing:.035em;color:var(--leather)}
+    .nav{display:flex;gap:9px;align-items:center}.nav a{font-size:12px;text-decoration:none;color:var(--body);padding:10px 13px;border-radius:999px}.nav a.cta{background:var(--black);color:var(--cream);box-shadow:0 10px 22px rgba(10,10,10,.16)}
+    .hero{min-height:86vh;display:grid;align-items:center;padding:64px 0 56px;position:relative}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:42px;align-items:center}.eyebrow{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brown2);font-weight:600}.line{width:34px;height:1px;background:linear-gradient(90deg,var(--brown2),var(--gold2));display:inline-block;margin:0 0 4px 10px}.h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(55px,8vw,112px);line-height:.88;letter-spacing:-.055em;margin:18px 0;color:var(--body)}.gold{font-style:italic;background:linear-gradient(160deg,#1A0A02 0%,#8B6914 22%,#D4A017 38%,#F5D78E 50%,#D4A017 68%,#8B6914 82%,#1A0A02 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 6px 22px rgba(139,105,20,.16)}
+    .lead{font-size:clamp(17px,2vw,21px);line-height:1.68;max-width:690px;color:rgba(61,32,16,.84);margin:0 0 26px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{border:none;cursor:pointer;text-decoration:none;border-radius:999px;padding:15px 21px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:.25s ease}.btn.primary{background:var(--black);color:var(--cream);box-shadow:0 18px 38px rgba(10,10,10,.2)}.btn.secondary{background:rgba(248,244,236,.72);border:1px solid rgba(123,79,36,.22);color:var(--body)}.btn:hover{transform:translateY(-2px)}
+    .visual-card{position:relative;border-radius:36px;padding:24px;border:1px solid rgba(123,79,36,.20);background:linear-gradient(145deg,rgba(248,244,236,.72),rgba(239,230,216,.44));box-shadow:var(--shadow);min-height:520px;overflow:hidden}.orb{position:absolute;border-radius:50%;filter:blur(.3px)}.orb.one{width:180px;height:180px;background:radial-gradient(circle,var(--gold3),rgba(212,160,23,.34),transparent 70%);right:-45px;top:-30px;opacity:.65}.orb.two{width:240px;height:240px;background:radial-gradient(circle,rgba(92,46,14,.16),transparent 70%);left:-80px;bottom:-90px}.butterfly{position:absolute;right:26px;bottom:22px;width:74px;filter:drop-shadow(0 20px 22px rgba(92,46,14,.25))}.mini-panel{position:absolute;left:22px;right:22px;bottom:116px;background:rgba(10,10,10,.88);color:var(--cream);border-radius:24px;padding:20px 20px 18px;box-shadow:0 24px 52px rgba(10,10,10,.24)}.mini-panel small{letter-spacing:.22em;text-transform:uppercase;color:var(--gold3);font-size:10px}.mini-panel p{font-family:'Cormorant Garamond',serif;font-size:31px;line-height:1;margin:9px 0 0;color:var(--cream)}.floating{position:absolute;background:rgba(248,244,236,.74);border:1px solid rgba(123,79,36,.18);border-radius:20px;padding:15px 16px;box-shadow:0 18px 42px rgba(61,32,16,.16);backdrop-filter:blur(15px);font-size:12px;line-height:1.35}.f1{top:60px;left:22px;width:190px}.f2{top:204px;right:30px;width:178px}.f3{top:338px;left:54px;width:202px}.floating b{display:block;font-size:13px;color:var(--leather);margin-bottom:5px}
+    section{padding:74px 0}.section-head{max-width:760px;margin-bottom:28px}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.25em;color:var(--brown2);font-weight:700}.h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(38px,5.5vw,68px);line-height:.98;letter-spacing:-.035em;margin:12px 0;color:var(--body)}.sub{font-size:17px;line-height:1.72;color:rgba(61,32,16,.78);max-width:760px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:rgba(248,244,236,.62);border:1px solid rgba(123,79,36,.16);border-radius:26px;padding:24px;box-shadow:0 18px 42px rgba(61,32,16,.10)}.card h3{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400;line-height:1;margin:0 0 12px;color:var(--leather)}.card p{line-height:1.65;margin:0;color:rgba(61,32,16,.78)}
+    .quiz-shell{background:linear-gradient(145deg,rgba(248,244,236,.82),rgba(239,230,216,.56));border:1px solid rgba(123,79,36,.20);border-radius:38px;box-shadow:var(--shadow);overflow:hidden}.quiz-top{padding:28px 28px 20px;display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid rgba(123,79,36,.14)}.progress{height:9px;background:rgba(123,79,36,.12);border-radius:99px;overflow:hidden;width:min(420px,44vw)}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--leather),var(--gold2));border-radius:inherit;transition:.25s ease}.quiz-body{padding:34px 28px 30px}.q-title{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,5vw,54px);font-weight:300;line-height:1;margin:0 0 16px}.q-help{line-height:1.6;color:rgba(61,32,16,.74);margin:0 0 24px}.options{display:grid;gap:12px}.option{width:100%;text-align:left;border:1px solid rgba(123,79,36,.17);background:rgba(248,244,236,.62);border-radius:20px;padding:17px 18px;cursor:pointer;color:var(--body);font-family:'DM Sans';font-size:15px;line-height:1.45;transition:.18s ease}.option:hover,.option.selected{border-color:rgba(92,46,14,.5);background:rgba(248,244,236,.88);transform:translateY(-1px);box-shadow:0 12px 28px rgba(61,32,16,.10)}.quiz-actions{display:flex;justify-content:space-between;gap:12px;margin-top:26px}.back{background:transparent;color:var(--body);border:1px solid rgba(123,79,36,.20)}.hidden{display:none!important}
+    .result{padding:34px 28px 36px}.badge{display:inline-flex;padding:8px 12px;background:rgba(10,10,10,.88);color:var(--cream);border-radius:999px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px}.result-title{font-family:'Cormorant Garamond',serif;font-size:clamp(44px,6vw,74px);line-height:.92;font-weight:300;margin:0 0 18px}.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}.result-box{background:rgba(248,244,236,.66);border:1px solid rgba(123,79,36,.15);border-radius:23px;padding:20px}.result-box h4{margin:0 0 10px;color:var(--leather);font-size:13px;letter-spacing:.18em;text-transform:uppercase}.result-box ul{margin:0;padding:0;list-style:none}.result-box li{margin:9px 0;line-height:1.45}.result-box li::before{content:'◆';color:var(--brown);margin-right:8px}.prompt{margin-top:18px;background:rgba(10,10,10,.9);color:var(--cream);border-radius:24px;padding:20px;white-space:pre-wrap;line-height:1.55;font-size:14px}.footer{padding:34px 0 48px;text-align:center}.footer img{width:54px;display:block;margin:0 auto 12px}.footer p{font-size:13px;color:rgba(61,32,16,.72)}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease}.reveal.in{opacity:1;transform:none}
+    @media(max-width:860px){body::before{background-image:linear-gradient(120deg,rgba(248,244,236,.38),rgba(200,180,154,.16)),url('assets/esg-stone-bg-mobile.webp');background-position:center top;background-attachment:scroll}.topbar{top:8px;margin-top:8px;width:calc(100% - 16px);padding:10px 11px}.logo img{height:28px}.logo span{font-size:18px}.nav a:not(.cta){display:none}.nav a.cta{font-size:11px;padding:9px 11px}.hero{min-height:auto;padding:56px 0 36px}.hero-grid{grid-template-columns:1fr;gap:26px}.h1{font-size:clamp(50px,18vw,78px)}.lead{font-size:16px}.visual-card{min-height:430px;border-radius:30px}.floating{font-size:11px}.f1{top:40px;left:16px;width:174px}.f2{top:160px;right:16px;width:160px}.f3{top:280px;left:24px;width:188px}.mini-panel{left:16px;right:16px;bottom:92px}.mini-panel p{font-size:27px}.butterfly{width:60px;right:22px;bottom:18px}.grid3,.result-grid{grid-template-columns:1fr}.quiz-top{display:block}.progress{width:100%;margin-top:16px}.quiz-body,.result{padding:26px 18px}.q-title{font-size:36px}.quiz-actions{flex-direction:column-reverse}.btn{width:100%}section{padding:50px 0}.card{padding:20px}.wrap{width:min(100% - 22px,1120px)}}
+  </style>
+</head>
+<body>
+<div class="grain"></div>
+<header class="topbar">
+  <a class="logo" href="#top" aria-label="ESG Experience"><img src="assets/esg-logo.png" alt="ESG Experience"><span>ADN Visual</span></a>
+  <nav class="nav"><a href="#que-es">Qué revela</a><a href="#quiz">Empezar</a><a class="cta" href="#quiz">Hacer diagnóstico</a></nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">ESG EXPERIENCE <span class="line"></span></div>
+        <h1 class="h1">Descubre el <span class="gold">ADN visual</span> de tu marca.</h1>
+        <p class="lead">Tu marca puede tener buenas ideas y aun así verse distinta cada semana. Este diagnóstico te ayuda a identificar qué dirección visual debe sostener tu presencia para que empiece a sentirse coherente, reconocible y tuya.</p>
+        <div class="actions"><a class="btn primary" href="#quiz">Empezar diagnóstico</a><a class="btn secondary" href="#que-es">Ver qué recibo</a></div>
+      </div>
+      <div class="visual-card reveal" aria-hidden="true">
+        <div class="orb one"></div><div class="orb two"></div>
+        <div class="floating f1"><b>Color</b>La paleta no es decoración. Es memoria visual.</div>
+        <div class="floating f2"><b>Textura</b>Lo que se repite empieza a sentirse reconocible.</div>
+        <div class="floating f3"><b>Dirección</b>No necesitas verte como todos. Necesitas verte como tú.</div>
+        <div class="mini-panel"><small>Resultado privado en pantalla</small><p>Una dirección visual inicial para construir con intención.</p></div>
+        <img class="butterfly" src="assets/esg-butterfly.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="que-es">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">No es un test de colores</div><h2 class="h2">Es una primera lectura visual de tu marca.</h2><p class="sub">El Mapa Inicial te ayuda a entender qué tipo de marca puedes construir. El ADN Visual traduce esa claridad a presencia: cómo debe verse, qué debe repetir, qué debe evitar y qué tipo de imágenes o recursos visuales pueden sostener tu identidad.</p></div>
+      <div class="grid3">
+        <div class="card reveal"><h3>Qué se siente tuyo</h3><p>Identifica qué tipo de estética puede representar tu criterio, tu negocio o tu universo sin convertirse en una copia de tendencias.</p></div>
+        <div class="card reveal"><h3>Qué debe repetirse</h3><p>Define señales visuales iniciales: color, textura, encuadre, presencia, energía y tipo de recursos que ayudan a que te recuerden.</p></div>
+        <div class="card reveal"><h3>Qué sigue después</h3><p>Recibes una ruta: si necesitas Mapa, JSON Ancla, Bratz, Brújula o entrar a ESG con una dirección más clara.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="quiz">
+    <div class="wrap">
+      <div class="quiz-shell reveal">
+        <div class="quiz-top"><div><div class="kicker">Diagnóstico gratuito</div><strong id="stepText">Pregunta 1 de 10</strong></div><div class="progress"><div class="bar" id="bar"></div></div></div>
+        <div class="quiz-body" id="quizBody">
+          <h2 class="q-title" id="qTitle"></h2>
+          <p class="q-help" id="qHelp"></p>
+          <div class="options" id="options"></div>
+          <div class="quiz-actions"><button class="btn back" id="backBtn" type="button">Atrás</button><button class="btn primary" id="nextBtn" type="button">Continuar</button></div>
+        </div>
+        <div class="result hidden" id="result"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><img src="assets/esg-butterfly.png" alt="Mariposa ESG"><p>ESG Experience™ · La IA puede generar todo. Menos tu marca.</p></footer>
+<script>
+const CONFIG={
+  mapa:'https://esg-mapa-inicial-quiz.vercel.app/',
+  json:'https://protocolo-json-ancla.vercel.app/',
+  bratz:'https://mini-guia-bratz-esg.vercel.app/',
+  brujula:'https://esg-brujula-quiz-publico.vercel.app/',
+  landing:'https://esg-experience-landing.vercel.app/',
+  instagram:'https://www.instagram.com/eilensg/'
+};
+const questions=[
+ {t:'¿Hiciste ya el Mapa Inicial de Marca?',h:'Esto ayuda a adaptar mejor tu dirección visual. Si no lo hiciste, igual puedes continuar.',o:[['A','Sí, mi resultado fue Marca Directora'],['B','Sí, mi resultado fue Marca Educadora'],['C','Sí, mi resultado fue Marca Visual'],['D','Sí, mi resultado fue Universo / Personaje'],['N','No lo he hecho todavía']]},
+ {t:'Cuando miras tu marca ahora, ¿qué sientes primero?',h:'Elige la frase que más se parece a lo que te pasa.',o:[['A','Tiene ideas, pero todavía no se siente como yo.'],['B','Tiene valor, pero visualmente no se entiende rápido.'],['C','Se ve bonita por momentos, pero no coherente.'],['D','Tiene potencial creativo, pero no tiene un mundo visual claro.']]},
+ {t:'¿Qué quieres que la gente reconozca sin ver tu nombre?',h:'Tu respuesta define la memoria visual que debe construir tu marca.',o:[['A','Mi criterio, mi presencia y mi forma de pensar.'],['B','Mi forma de enseñar y ordenar información.'],['C','Mi estética, calidad y dirección visual.'],['D','Mi personaje, universo o energía creativa.']]},
+ {t:'¿Qué tipo de imagen se siente más cercana a tu marca?',h:'No pienses en lo que está de moda. Piensa en lo que podrías sostener.',o:[['A','Fotos reales, detalles personales cuidados y escenas con intención.'],['B','Carruseles limpios, diagramas simples y recursos educativos.'],['C','Imágenes premium, moodboards, antes/después y dirección visual fuerte.'],['D','Avatares, stickers, escenas animadas, Bratz o personajes.']]},
+ {t:'¿Qué error visual se repite más en tu contenido?',h:'Esto nos dice qué debe corregir tu ADN visual primero.',o:[['A','Cambio demasiado de tono y no sé qué parte de mí mostrar.'],['B','El contenido se ve lleno o poco organizado.'],['C','Cada imagen parece de una marca distinta.'],['D','Mis ideas visuales son creativas, pero no tienen una identidad fija.']]},
+ {t:'¿Qué paleta se sentiría más natural para ti?',h:'No es una elección final de colores. Es una pista de dirección.',o:[['A','Neutros cálidos, marrones, crema y acentos elegantes.'],['B','Fondos claros, contraste limpio y colores funcionales.'],['C','Texturas premium, dorado controlado, sombras y profundidad.'],['D','Colores más expresivos, detalles divertidos y estilo de personaje.']]},
+ {t:'¿Cómo quieres aparecer dentro de tu marca?',h:'Tu presencia visual no tiene que depender de mostrarlo todo.',o:[['A','Como fundadora, guía o voz humana, sin exponer mi vida privada.'],['B','Como educadora o recurso útil que simplifica temas.'],['C','Como dirección visual: proceso, estética, resultados, mockups.'],['D','A través de personaje, avatar, muñeca, universo o cuenta animada.']]},
+ {t:'Si usaras IA visual, ¿para qué la usarías primero?',h:'Esto conecta tu ADN Visual con el próximo recurso más lógico.',o:[['A','Para crear apoyo visual sin perder mi identidad humana.'],['B','Para convertir ideas en carruseles, guías y piezas claras.'],['C','Para lograr imágenes consistentes que se parezcan entre sí.'],['D','Para crear personajes, stickers, escenas y contenido animado.']]},
+ {t:'¿Qué estilo de contenido podrías sostener por 30 días?',h:'La identidad visual también depende de lo que puedes repetir.',o:[['A','Reflexiones, cámara, historias habladas y escenas reales.'],['B','Carruseles, mini guías, explicaciones y ejemplos.'],['C','Antes/después, muestras visuales, procesos, moodboards.'],['D','Reels animados, trends, stickers, personaje y frases cortas.']]},
+ {t:'¿Qué resultado quieres llevarte hoy?',h:'Elige la salida que sería más útil ahora mismo.',o:[['A','Saber cómo verme humana y reconocible sin mostrarlo todo.'],['B','Saber cómo ordenar mi información visualmente.'],['C','Saber cómo construir coherencia visual con IA.'],['D','Saber cómo crear un universo visual o personaje con intención.']]}
+];
+const profiles={
+ A:{name:'ADN Humano Editorial',tag:'Presencia con criterio',intro:'Tu marca necesita verse humana, cercana y dirigida sin depender de exponer tu vida privada.',show:['rostro cuando aporte confianza','escenas reales cuidadas','detalles de proceso','frases con postura','texturas cálidas y editoriales'],avoid:['mostrar rutina sin intención','cambiar de estética cada semana','usar fotos solo por verse bonitas'],next:'Mapa Inicial + Brújula ESG',link:CONFIG.mapa,button:'Revisar Mapa Inicial'},
+ B:{name:'ADN Educador Claro',tag:'Información que se entiende',intro:'Tu marca necesita una estructura visual que haga que tu conocimiento se vea simple, útil y fácil de guardar.',show:['carruseles limpios','diagramas sencillos','títulos claros','bloques de aprendizaje','ejemplos y comparaciones'],avoid:['slides llenos de texto','diseños con demasiados colores','explicar sin jerarquía visual'],next:'Landing ESG + Brújula ESG',link:CONFIG.brujula,button:'Hacer Brújula ESG'},
+ C:{name:'ADN Visual Premium',tag:'Coherencia y dirección',intro:'Tu marca necesita una memoria visual más firme: textura, paleta, encuadre, calidad y repetición intencional.',show:['moodboards dirigidos','imágenes consistentes','antes/después','mockups','escenas con profundidad y textura'],avoid:['prompts sueltos','imágenes bonitas pero desconectadas','fondos genéricos'],next:'JSON Ancla Mini',link:CONFIG.json,button:'Ir al JSON Ancla'},
+ D:{name:'ADN Universo / Personaje',tag:'Mundo visual propio',intro:'Tu marca tiene potencial para construir un universo creativo: personaje, avatar, stickers, reels animados o escenas con personalidad.',show:['avatar o muñeca de marca','stickers con frases propias','escenas animadas','colaboraciones con personaje','trends reinterpretados'],avoid:['personajes sin estrategia','usar Bratz solo por moda','cambiar de avatar sin memoria visual'],next:'Guía Bratz + Brújula ESG',link:CONFIG.bratz,button:'Ir a Guía Bratz'}
+};
+let current=0; let answers=Array(questions.length).fill(null);
+const qTitle=document.getElementById('qTitle'),qHelp=document.getElementById('qHelp'),options=document.getElementById('options'),stepText=document.getElementById('stepText'),bar=document.getElementById('bar'),backBtn=document.getElementById('backBtn'),nextBtn=document.getElementById('nextBtn'),quizBody=document.getElementById('quizBody'),result=document.getElementById('result');
+function render(){const q=questions[current];qTitle.textContent=q.t;qHelp.textContent=q.h;stepText.textContent=`Pregunta ${current+1} de ${questions.length}`;bar.style.width=((current)/questions.length*100)+'%';options.innerHTML='';q.o.forEach(([val,text])=>{const b=document.createElement('button');b.className='option'+(answers[current]===val?' selected':'');b.type='button';b.textContent=text;b.onclick=()=>{answers[current]=val;document.querySelectorAll('.option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');};options.appendChild(b);});backBtn.style.visibility=current===0?'hidden':'visible';nextBtn.textContent=current===questions.length-1?'Ver mi ADN Visual':'Continuar';}
+nextBtn.onclick=()=>{if(!answers[current]){options.animate([{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{duration:220});return;} if(current<questions.length-1){current++;render();document.getElementById('quiz').scrollIntoView({behavior:'smooth',block:'start'});}else showResult();};
+backBtn.onclick=()=>{if(current>0){current--;render();}};
+function winner(){let score={A:0,B:0,C:0,D:0};answers.forEach(a=>{if(score[a]!==undefined)score[a]++;});return Object.entries(score).sort((a,b)=>b[1]-a[1])[0][0];}
+function showResult(){bar.style.width='100%';quizBody.classList.add('hidden');const key=winner();const r=profiles[key];const prompt=`Copia este prompt y pégalo en ChatGPT, Claude o Gemini:\n\nActúa como una directora visual de marca. Mi resultado del diagnóstico ADN Visual ESG fue: ${r.name}. Ayúdame a crear una primera dirección visual para mi marca. Quiero que definas: 1) sensación visual, 2) elementos que debo repetir, 3) elementos que debo evitar, 4) tipos de imágenes que debo usar, 5) una mini guía de 7 días para empezar a hacer mi marca más reconocible sin copiar una estética genérica.`;
+result.innerHTML=`<span class="badge">Tu resultado</span><h2 class="result-title">${r.name}</h2><p class="lead"><strong>${r.tag}.</strong> ${r.intro}</p><div class="result-grid"><div class="result-box"><h4>Qué debes mostrar</h4><ul>${r.show.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="result-box"><h4>Qué debes evitar</h4><ul>${r.avoid.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="result-box"><h4>Siguiente paso recomendado</h4><p>Tu ruta más lógica ahora es: <strong>${r.next}</strong>.</p></div><div class="result-box"><h4>Lectura ESG</h4><p>Tu identidad visual no se resuelve con más inspiración. Se resuelve repitiendo señales visuales que tengan dirección.</p></div></div><div class="prompt">${prompt}</div><div class="actions"><a class="btn primary" href="${r.link}" target="_blank" rel="noopener">${r.button}</a><a class="btn secondary" href="${CONFIG.landing}" target="_blank" rel="noopener">Conocer ESG Experience</a><a class="btn secondary" href="${CONFIG.instagram}" target="_blank" rel="noopener">Instagram @eilensg</a></div>`;result.classList.remove('hidden');result.scrollIntoView({behavior:'smooth',block:'start'});}
+render();
+const io=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
