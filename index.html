@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ADN Visual de Marca · ESG Experience™</title>
+  <meta name="description" content="Descubre cómo debe verse tu marca para atraer al público correcto, sostener coherencia visual y usar IA sin fingir una vida falsa." />
+  <meta name="theme-color" content="#C8B49A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--stone:#C8B49A;--cream:#F8F4EC;--cream2:#EFE6D8;--body:#3D2010;--brown:#A0622A;--brown2:#7B4F24;--leather:#5C2E0E;--black:#0A0A0A;--gold1:#8B6914;--gold2:#C9A646;--gold3:#F5D78E;--line:rgba(123,79,36,.18);--shadow:0 24px 70px rgba(61,32,16,.23);--radius:30px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--body);font-family:'DM Sans',system-ui,sans-serif;background:var(--stone);overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-3;background-image:linear-gradient(120deg,rgba(248,244,236,.42),rgba(200,180,154,.16)),url('assets/esg-stone-bg.png');background-size:cover;background-position:center;filter:saturate(.94) contrast(1.02)}body:after{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 15% 12%,rgba(245,215,142,.22),transparent 32%),radial-gradient(circle at 80% 16%,rgba(92,46,14,.10),transparent 34%),linear-gradient(180deg,rgba(248,244,236,.08),rgba(61,32,16,.12));pointer-events:none}.grain{position:fixed;inset:0;z-index:-1;opacity:.13;background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,transparent,black 12%,black 90%,transparent)}
+    .wrap{width:min(1120px,calc(100% - 34px));margin:0 auto}.topbar{position:sticky;top:12px;z-index:20;width:min(1120px,calc(100% - 24px));margin:12px auto 0;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(248,244,236,.78);backdrop-filter:blur(18px);box-shadow:0 18px 46px rgba(61,32,16,.11)}.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--body)}.logo img{height:34px}.logo span{font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--leather);letter-spacing:.035em}.nav{display:flex;gap:9px;align-items:center}.nav a{font-size:12px;text-decoration:none;color:var(--body);padding:10px 13px;border-radius:999px}.nav a.cta{background:var(--black);color:var(--cream)}
+    .hero{min-height:82vh;display:grid;align-items:center;padding:64px 0 48px}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:44px;align-items:center}.eyebrow,.kicker{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--brown2);font-weight:700}.line{width:34px;height:1px;background:linear-gradient(90deg,var(--brown2),var(--gold2));display:inline-block;margin:0 0 4px 10px}.h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(54px,8vw,110px);line-height:.88;letter-spacing:-.055em;margin:18px 0;color:var(--body)}.h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(38px,5.4vw,68px);line-height:.98;letter-spacing:-.035em;margin:12px 0;color:var(--body)}.gold{font-style:italic;background:linear-gradient(160deg,#1A0A02 0%,#8B6914 22%,#D4A017 38%,#F5D78E 50%,#D4A017 68%,#8B6914 82%,#1A0A02 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:clamp(17px,2vw,21px);line-height:1.68;max-width:720px;color:rgba(61,32,16,.84);margin:0 0 26px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{border:none;cursor:pointer;text-decoration:none;border-radius:999px;padding:15px 21px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:.22s ease}.btn.primary{background:var(--black);color:var(--cream);box-shadow:0 18px 38px rgba(10,10,10,.20)}.btn.secondary,.btn.back{background:rgba(248,244,236,.72);border:1px solid rgba(123,79,36,.24);color:var(--body)}.btn:hover{transform:translateY(-2px)}.btn:disabled{opacity:.42;cursor:not-allowed;transform:none}
+    .visual-card{position:relative;min-height:520px;overflow:hidden;border-radius:36px;padding:24px;border:1px solid rgba(123,79,36,.20);background:linear-gradient(145deg,rgba(248,244,236,.76),rgba(239,230,216,.50));box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between;gap:22px}.orb{position:absolute;border-radius:50%;pointer-events:none}.orb.one{width:180px;height:180px;background:radial-gradient(circle,var(--gold3),rgba(212,160,23,.34),transparent 70%);right:-45px;top:-30px;opacity:.65}.orb.two{width:240px;height:240px;background:radial-gradient(circle,rgba(92,46,14,.16),transparent 70%);left:-80px;bottom:-90px}.butterfly{position:absolute;right:26px;bottom:22px;width:72px;filter:drop-shadow(0 20px 22px rgba(92,46,14,.25));z-index:5}.visual-stack{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:64px 10px 0}.floating{position:relative;background:rgba(248,244,236,.90);border:1px solid rgba(123,79,36,.20);border-radius:22px;padding:16px 17px;box-shadow:0 18px 42px rgba(61,32,16,.15),inset 0 1px 0 rgba(255,255,255,.45);backdrop-filter:blur(18px);font-size:13px;line-height:1.42;color:rgba(61,32,16,.86)}.floating b{display:block;font-size:14px;color:var(--leather);margin-bottom:6px}.f1{transform:translateY(-8px)}.f2{transform:translateY(32px)}.f3{grid-column:1/-1;justify-self:center;width:min(310px,82%);transform:translateY(18px)}.mini-panel{position:relative;z-index:4;margin:46px 10px 70px;background:rgba(10,10,10,.96);color:var(--cream);border-radius:26px;padding:24px 26px 23px;box-shadow:0 30px 58px rgba(10,10,10,.34),inset 0 1px 0 rgba(255,255,255,.10);border:1px solid rgba(245,215,142,.16)}.mini-panel small{letter-spacing:.24em;text-transform:uppercase;color:var(--gold3);font-size:10px}.mini-panel p{font-family:'Cormorant Garamond',serif;font-size:34px;line-height:1.02;margin:10px 0 0;color:var(--cream)}
+    section{padding:70px 0}.section-head{max-width:780px;margin-bottom:28px}.sub{font-size:17px;line-height:1.72;color:rgba(61,32,16,.78);max-width:780px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:rgba(248,244,236,.62);border:1px solid rgba(123,79,36,.16);border-radius:26px;padding:24px;box-shadow:0 18px 42px rgba(61,32,16,.10)}.card h3{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400;line-height:1;margin:0 0 12px;color:var(--leather)}.card p{line-height:1.65;margin:0;color:rgba(61,32,16,.78)}
+    .quiz-shell{background:linear-gradient(145deg,rgba(248,244,236,.84),rgba(239,230,216,.58));border:1px solid rgba(123,79,36,.20);border-radius:38px;box-shadow:var(--shadow);overflow:hidden}.quiz-top{padding:28px 28px 20px;display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid rgba(123,79,36,.14)}.progress{height:9px;background:rgba(123,79,36,.12);border-radius:99px;overflow:hidden;width:min(440px,44vw)}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--leather),var(--gold2));border-radius:inherit;transition:.25s ease}.quiz-body{padding:34px 28px 30px}.q-title{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,5vw,54px);font-weight:300;line-height:1;margin:0 0 14px}.q-help{line-height:1.6;color:rgba(61,32,16,.74);margin:0 0 24px}.options{display:grid;gap:12px}.option{width:100%;text-align:left;border:1px solid rgba(123,79,36,.18);background:rgba(248,244,236,.62);border-radius:20px;padding:17px 18px;cursor:pointer;color:var(--body);font-family:'DM Sans';font-size:15px;line-height:1.45;transition:.18s ease}.option:hover,.option.selected{border-color:rgba(92,46,14,.55);background:rgba(248,244,236,.9);transform:translateY(-1px);box-shadow:0 12px 28px rgba(61,32,16,.10)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:1/-1}.field label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--brown2);font-weight:700;margin-bottom:8px}.field input,.field textarea,.field select{width:100%;border:1px solid rgba(123,79,36,.22);border-radius:18px;background:rgba(248,244,236,.78);color:var(--body);padding:15px 16px;font-family:'DM Sans';font-size:15px;outline:none;line-height:1.45}.field textarea{min-height:96px;resize:vertical}.hint{font-size:13px;line-height:1.55;color:rgba(61,32,16,.68);margin-top:7px}.map-note{background:rgba(10,10,10,.88);color:var(--cream);border-radius:22px;padding:18px 20px;margin:18px 0}.map-note b{color:var(--gold3)}.error{color:#7a220f;background:rgba(255,235,220,.75);border:1px solid rgba(122,34,15,.22);border-radius:16px;padding:12px 14px;margin:16px 0;display:none}.quiz-actions{display:flex;justify-content:space-between;gap:12px;margin-top:26px}.hidden{display:none!important}
+    .result{padding:34px 28px 36px}.badge{display:inline-flex;padding:8px 12px;background:rgba(10,10,10,.88);color:var(--cream);border-radius:999px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px}.result-title{font-family:'Cormorant Garamond',serif;font-size:clamp(42px,6vw,76px);line-height:.92;font-weight:300;margin:0 0 18px}.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}.result-box{background:rgba(248,244,236,.68);border:1px solid rgba(123,79,36,.16);border-radius:23px;padding:20px}.result-box h4{margin:0 0 10px;color:var(--leather);font-size:12px;letter-spacing:.18em;text-transform:uppercase}.result-box p{line-height:1.62;margin:0;color:rgba(61,32,16,.80)}.result-box ul{margin:0;padding:0;list-style:none}.result-box li{margin:9px 0;line-height:1.45}.result-box li:before{content:'◆';color:var(--brown);margin-right:8px}.prompt-wrap{margin-top:18px}.prompt-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}.prompt-head h4{margin:0;color:var(--leather);font-size:12px;letter-spacing:.16em;text-transform:uppercase}.copy{font-size:12px;padding:10px 13px}.prompt{background:rgba(10,10,10,.91);color:var(--cream);border-radius:24px;padding:20px;white-space:pre-wrap;line-height:1.56;font-size:13.5px;max-height:420px;overflow:auto}.prompt::selection{background:var(--gold2);color:var(--black)}.footer{padding:34px 0 48px;text-align:center}.footer img{width:54px;display:block;margin:0 auto 12px}.footer p{font-size:13px;color:rgba(61,32,16,.72)}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.in{opacity:1;transform:none}
+    @media(max-width:860px){.topbar{top:8px;margin-top:8px;width:calc(100% - 16px);padding:10px 11px}.logo img{height:28px}.logo span{font-size:18px}.nav a:not(.cta){display:none}.hero{min-height:auto;padding:54px 0 36px}.hero-grid,.form-grid,.grid3,.result-grid{grid-template-columns:1fr}.h1{font-size:clamp(50px,17vw,78px)}.lead{font-size:16px}.visual-card{min-height:auto;border-radius:30px;padding:18px}.visual-stack{grid-template-columns:1fr;gap:12px;padding:28px 4px 0}.f1,.f2,.f3{transform:none;width:100%;justify-self:stretch}.f3{grid-column:auto}.mini-panel{margin:18px 4px 64px;padding:20px}.mini-panel p{font-size:27px}.butterfly{width:60px}.quiz-top{display:block}.progress{width:100%;margin-top:16px}.quiz-body,.result{padding:26px 18px}.q-title{font-size:36px}.quiz-actions{flex-direction:column-reverse}.btn{width:100%}section{padding:50px 0}.wrap{width:min(100% - 22px,1120px)}}
+  </style>
+</head>
+<body>
+<div class="grain"></div>
+<header class="topbar">
+  <a class="logo" href="#top" aria-label="ESG Experience"><img src="assets/esg-logo.png" alt="ESG Experience"><span>ADN Visual</span></a>
+  <nav class="nav"><a href="#que-es">Qué revela</a><a href="#quiz">Empezar</a><a class="cta" href="#quiz">Hacer diagnóstico</a></nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">ESG EXPERIENCE <span class="line"></span></div>
+        <h1 class="h1">Descubre el <span class="gold">ADN visual</span> de tu marca.</h1>
+        <p class="lead">Este diagnóstico traduce tu dirección de marca en presencia visual: ropa, colores, fondos, estilo, fotos, motion control y mockups para construir con IA sin fingir una vida falsa.</p>
+        <div class="actions"><a class="btn primary" href="#quiz">Empezar diagnóstico</a><a class="btn secondary" href="#que-es">Ver qué recibo</a></div>
+      </div>
+      <div class="visual-card reveal" aria-hidden="true">
+        <div class="orb one"></div><div class="orb two"></div>
+        <div class="visual-stack">
+          <div class="floating f1"><b>Presencia</b>Cómo te ves para atraer al público correcto.</div>
+          <div class="floating f2"><b>IA ética</b>Apoyo visual sin inventar logros ni vida falsa.</div>
+          <div class="floating f3"><b>Mockups</b>Una visión inicial de marca y perfil de Instagram.</div>
+        </div>
+        <div class="mini-panel"><small>Resultado accionable</small><p>Dos prompts finales para convertir tu diagnóstico en dirección visual.</p></div>
+        <img class="butterfly" src="assets/esg-butterfly.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="que-es">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">No reemplaza tu estrategia</div><h2 class="h2">El ADN Visual define cómo se ve la marca que quieres construir.</h2><p class="sub">El Mapa Inicial responde qué marca estás intentando crear. El ADN Visual responde cómo debe verse esa marca para atraer a esas personas: colores, ropa, fondos, presencia, fotos, IA visual y mockups.</p></div>
+      <div class="grid3">
+        <div class="card reveal"><h3>Conecta con el Mapa</h3><p>Si ya hiciste el Mapa Inicial, el resultado se usa como ancla de congruencia y se refresca antes de continuar.</p></div>
+        <div class="card reveal"><h3>Se queda en lo visual</h3><p>No entrega calendario ni estrategia de monetización. Su trabajo es presencia, estilo, colores, escenarios y uso visual de IA.</p></div>
+        <div class="card reveal"><h3>Entrega 2 prompts</h3><p>Uno para dirección visual estratégica y otro para generar mockup de identidad visual + mockup de perfil de Instagram.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="quiz">
+    <div class="wrap">
+      <div class="quiz-shell reveal">
+        <div class="quiz-top"><div><div class="kicker">Diagnóstico gratuito</div><strong id="stepText">Paso 1</strong></div><div class="progress"><div class="bar" id="bar"></div></div></div>
+        <div class="quiz-body" id="quizBody">
+          <h2 class="q-title" id="qTitle"></h2>
+          <p class="q-help" id="qHelp"></p>
+          <div id="dynamicArea"></div>
+          <div class="error" id="errorBox"></div>
+          <div class="quiz-actions"><button class="btn back" id="backBtn" type="button">Atrás</button><button class="btn primary" id="nextBtn" type="button">Continuar</button></div>
+        </div>
+        <div class="result hidden" id="result"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><img src="assets/esg-butterfly.png" alt="Mariposa ESG"><p>ESG Experience™ · La IA puede generar todo. Menos tu marca.</p></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
